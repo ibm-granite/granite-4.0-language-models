@@ -9,22 +9,14 @@
 
 ---
 ## Introduction to Granite 4.0 Language Models
-Granite 4.0 language models are lightweight, state-of-the-art, open foundation models that natively support multilinguality, coding, reasoning, RAG tasks, and tool usage, including the potential to be run on constrained compute resources. All the models are publicly released under an Apache 2.0 license for both research and commercial use. The models' data curation and training procedure were designed for enterprise usage and customization, with a process that evaluates datasets for governance, risk and compliance (GRC) criteria, in addition to IBM's standard data clearance process and document quality checks.
+Granite 4.0 language models are lightweight, state-of-the-art open foundation models that natively support multilingual capabilities, a wide range of coding tasks—including fill-in-the-middle (FIM) code completion—retrieval-augmented generation (RAG), tool usage, and structured JSON output.
 
-Granite 4.0 models retain the context length and key capabilities of earlier versions, such as response length control and response originality. Granite 4.0 also supports fill-in-the-middle (FIM) code completion and reasoning.
+Our models are developed using a combination of advanced techniques such as structured chat formatting, supervised fine-tuning, reinforcement learning–based model alignment, and model merging. Granite 4.0 features significantly improved instruction-following and tool-calling capabilities, making it highly effective for enterprise applications and an ideal choice for deployment in environments with constrained compute resources.
 
-Granite 4.0 models are available in four different sizes and are built on a dense, dense-hybrid, and MoE with hybrid architectures. We release base model — checkpoints of models after pretraining, as well as instruct checkpoints — models finetuned for dialogue, instruction-following, helpfulness, and safety.
+All models are publicly released under the Apache 2.0 license, allowing free use for both research and commercial purposes. The data curation and training processes were specifically designed for enterprise scenarios and customization, incorporating governance, risk, and compliance (GRC) evaluations alongside IBM’s standard data clearance and document quality review procedures.
 
-<!-- TO DO: Mention an evaluation highlight -->
-<!-- Evaluation results show that Granite-3.3-8B-Instruct outperforms models of similar parameter sizes in [Hugging Face's OpenLLM Leaderboard](https://huggingface.co/spaces/open-llm-leaderboard/open_llm_leaderboard#/) (see Figure 1). 
+Granite 4.0 models are available in three sizes—micro, tiny, and small—and are built on dense, dense-hybrid, and mixture-of-experts (MoE) hybrid architectures. We release both base models (checkpoints after pretraining) and instruct models (checkpoints fine-tuned for dialogue, instruction following, helpfulness, and safety).
 
-<figure>
-  <img src="https://github.com/ibm-granite/granite-3.1-language-models/blob/main/figures/granite-3_1-8b-instruct.png"
-  alt=" Granite-3.1-8B-Instruct">
-  <figcaption>
-  Figure 1. Evaluation results from Granite-3.1-8B-Instruct in Hugging Face's OpenLLM Leaderboard.</figcaption>
-</figure>
-</br> -->
 Comprehensive evaluation results for all model variants, as well as other relevant information will be available in Granite 4.0 Language Models technical report.
 
 ## How to Use our Models?
