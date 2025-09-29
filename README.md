@@ -31,7 +31,7 @@ To use any of our models, pick an appropriate `model_path` from:
 8. `ibm-granite/granite-4.0-h-small`
 
 ### Inference
-This is a simple example of how to use Granite-3.1-1B-A400M-Instruct model.
+This is a simple example of how to use Granite-4.0-H-Small model.
 
 ```python
 import torch
