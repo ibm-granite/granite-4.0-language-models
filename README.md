@@ -255,7 +255,7 @@ output = tokenizer.batch_decode(output)
 print(output[0])
 ```
 
-You can find examples about other capabilities of Granite 4.0 models in our [prompt engineering guide](/Granite%204.0%20Prompt%20engineering%20guide%20v2.md)).
+You can find examples about other capabilities of Granite 4.0 models in our [prompt engineering guide](https://github.com/ibm-granite/granite-4.0-language-models/blob/main/Granite%204.0%20Prompt%20engineering%20guide%20v2.md).
 
 ## How to Download our Models?
 The model of choice (`ibm-granite/granite-4.0-h-small` in this example) can be cloned using:
