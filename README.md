@@ -66,7 +66,7 @@ output = tokenizer.batch_decode(output)
 print(output)
 ```
 
-### Tool-calling for LLM agents
+### Tool-calling capabilities for AI agents
 Agentic tool-calling is shaping the future of AI agents, enabling seamless integration of powerful back-end systems into agent-driven workflows. These trajectories often involve multiple tool calls, handling execution responses, and multi-turn user interactions. While agent frameworks orchestrate long-horizon tasks, LLMs must provide the foundation — including standard tool formats, robust tool-call handling (even in edge cases), and support for feeding back execution results. 
 
 The following code example demonstrates how Granite 4.0’s tool-calling capabilities address these needs. In the first user query, the model successfully generates the appropriate tool call because it has access to the necessary tools. In contrast, it produces an apology message for the second query, as the required tooling is unavailable. Since this example does not use an agent framework, tool execution is simulated.
@@ -211,7 +211,7 @@ print(output[0])
 ```
 
 ## Fill-in-the-middle (FIM) Code Completion
-FIM code completion capability is very useful for software developers. This example demonstrates how to use it to complete part of a function that processes user data and returns a summary.
+The FIM (Fill-in-the-Middle) code completion capability is highly valuable for software developers, as it enables models to intelligently generate missing code segments within existing functions. The example below demonstrates how it can be used to complete a function that processes user data and produces a summary.
 
 ```python
 import torch
@@ -255,7 +255,7 @@ output = tokenizer.batch_decode(output)
 print(output[0])
 ```
 
-You can find examples about other capabilities of Granite 4.0 models in our [prompt engineering guide]() and [Granite Docs](https://www.ibm.com/granite/docs/).
+You can find examples about other capabilities of Granite 4.0 models in our [prompt engineering guide](/Granite%204.0%20Prompt%20engineering%20guide%20v2.md)).
 
 ## How to Download our Models?
 The model of choice (`ibm-granite/granite-4.0-h-small` in this example) can be cloned using:
