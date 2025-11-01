@@ -260,7 +260,7 @@ You can find examples about other capabilities of Granite 4.0 models in our [pro
 ## How to Download our Models?
 The model of choice (`ibm-granite/granite-4.0-h-small` in this example) can be cloned using:
 ```shell
-git clone https://https://huggingface.co/ibm-granite/granite-4.0-h-small
+git clone https://huggingface.co/ibm-granite/granite-4.0-h-small
 ```
 
 ## How to Contribute to this Project?
