@@ -15,7 +15,7 @@ Our models are developed using a combination of advanced techniques such as stru
 
 All models are publicly released under the Apache 2.0 license, allowing free use for both research and commercial purposes. The data curation and training processes were specifically designed for enterprise scenarios and customization, incorporating governance, risk, and compliance (GRC) evaluations alongside IBM’s standard data clearance and document quality review procedures.
 
-Granite 4.0 models are available in three sizes—micro, tiny, and small—and are built on dense, dense-hybrid, and mixture-of-experts (MoE) hybrid architectures. We release both base models (checkpoints after pretraining) and instruct models (checkpoints fine-tuned for dialogue, instruction following, helpfulness, and safety).
+The initial release of the Granite 4.0 models included three sizes—micro, tiny, and small—built on dense, dense-hybrid, and mixture-of-experts (MoE) hybrid architectures. Additional model sizes have been added gradually. We provide both base models (checkpoints after pretraining) and instruct models (checkpoints fine-tuned for dialogue, instruction following, helpfulness, and safety).
 
 Core evaluation results for all model variants are provided on their respective model cards, and a more comprehensive extended evaluation is available [here](URL).
 
@@ -31,6 +31,8 @@ To use any of our models, pick an appropriate `model_path` from:
 6. `ibm-granite/granite-4.0-h-tiny`
 7. `ibm-granite/granite-4.0-h-small-base`
 8. `ibm-granite/granite-4.0-h-small`
+9. `ibm-granite/granite-4.0-8b-base` (Dec 3rd)
+10. `ibm-granite/granite-4.0-8b` (Dec 3rd)
 
 ## Inference Examples
 
