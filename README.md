@@ -31,8 +31,8 @@ To use any of our models, pick an appropriate `model_path` from:
 6. `ibm-granite/granite-4.0-h-tiny`
 7. `ibm-granite/granite-4.0-h-small-base`
 8. `ibm-granite/granite-4.0-h-small`
-9. `ibm-granite/granite-4.0-8b-base` (Dec 3rd)
-10. `ibm-granite/granite-4.0-8b` (Dec 3rd)
+9. `ibm-granite/granite-4.0-8b-base`
+10. `ibm-granite/granite-4.0-8b`
 
 ## Inference Examples
 
