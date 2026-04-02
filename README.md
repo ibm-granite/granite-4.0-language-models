@@ -23,7 +23,7 @@ Core evaluation results for all model variants are provided on their respective 
 
 ## How to Use our Models?
 To use any of our models, pick an appropriate `model_path` from:
-1. `iibm-granite/granite-4.0-micro-base`
+1. `ibm-granite/granite-4.0-micro-base`
 2. `ibm-granite/granite-4.0-micro`
 3. `ibm-granite/granite-4.0-h-micro-base`
 4. `ibm-granite/granite-4.0-h-micro`
